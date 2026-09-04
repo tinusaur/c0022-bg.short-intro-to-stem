@@ -22,6 +22,15 @@ Authoritative layout rules: **`../../tcams/tcams-docs-shared`** (**STRUCTURE.md*
 - Unset **`layout_type`** uses the Handbooks default **`stack`**.
 - Do not put raw ids or level codes in reader-facing prose.
 
+## Content images
+
+Use the **same art and files** as `c0022-en.short-intro-to-stem`. Do not invent a separate Bulgarian visual style. When replacing a topic image here, copy the matching JPG from the English handbook (same lesson/media filename).
+
+- Topic illustrations: **1920×960** (2:1) JPG. Markdown: `![descriptive alt](media/filename.jpg)`.
+- **Do not touch** `media/course-cover.jpg` or `media/course-badge.jpg` unless explicitly asked.
+- Leave the older **1376×768** photos in place unless asked to replace them. Do **not** use those older handbook files as style references.
+- Full style and the copy-paste generation prompt: **`c0022-en.short-intro-to-stem/AGENTS.md`** (Content images). That look matches the learner course in `c0012-en.short-intro-to-stem/AGENTS.md`.
+
 ## Validation
 
 ```bash
