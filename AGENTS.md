@@ -4,9 +4,9 @@ Guidance for AI agents working in this repository.
 
 ## What this repo is
 
-- **`c0022-bg.short-intro-to-stem`** — sample **handbook** for teaching the learner course **Кратък увод в STEM** (`C0012-BG`).
-- **Course:** `C0022`. Language: **BG**.
-- Educator tracks **`V21`** / **`V22`** are teacher handbooks for how to teach those two learner groups (**`V21`** → начинаещи читатели **`V11`**, **`V22`** → по-млади читатели **`V12`**), not a separate content path. There is no **`V23`** until `C0012` has a deeper learner track.
+- **`c0202-bg.short-intro-to-stem`** — sample **handbook** for teaching the learner course **Кратък увод в STEM** (`C0102-BG`).
+- **Course:** `C0202`. Language: **BG**.
+- Educator tracks **`V21`** / **`V22`** are teacher handbooks for how to teach those two learner groups (**`V21`** → начинаещи читатели **`V11`**, **`V22`** → по-млади читатели **`V12`**), not a separate content path. There is no **`V23`** until `C0102` has a deeper learner track.
 
 ## Canonical spec
 
@@ -24,15 +24,15 @@ Authoritative layout rules: **`../../tcams/tcams-docs-shared`** (**STRUCTURE.md*
 
 ## Content images
 
-Use the **same art and files** as `c0022-en.short-intro-to-stem`. Do not invent a separate Bulgarian visual style. When replacing a topic image here, copy the matching JPG from the English handbook (same lesson/media filename).
+Use the **same art and files** as `c0202-en.short-intro-to-stem`. Do not invent a separate Bulgarian visual style. When replacing a topic image here, copy the matching JPG from the English handbook (same lesson/media filename).
 
 - Topic illustrations: **1920×960** (2:1) JPG. Markdown: `![descriptive alt](media/filename.jpg)`.
 - **Do not touch** `media/course-cover.jpg` or `media/course-badge.jpg` unless explicitly asked.
 - Leave the older **1376×768** photos in place unless asked to replace them. Do **not** use those older handbook files as style references.
-- Full style and the copy-paste generation prompt: **`c0022-en.short-intro-to-stem/AGENTS.md`** (Content images). That look matches the learner course in `c0012-en.short-intro-to-stem/AGENTS.md`.
+- Full style and the copy-paste generation prompt: **`c0202-en.short-intro-to-stem/AGENTS.md`** (Content images). That look matches the learner course in `c0102-en.short-intro-to-stem/AGENTS.md`.
 
 ## Validation
 
 ```bash
-bash tools/validate.sh /path/to/c0022-bg.short-intro-to-stem
+bash tools/validate.sh /path/to/c0202-bg.short-intro-to-stem
 ```
