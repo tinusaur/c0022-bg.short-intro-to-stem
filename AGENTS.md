@@ -6,7 +6,7 @@ Guidance for AI agents working in this repository.
 
 - **`c0202-bg.short-intro-to-stem`** — sample **handbook** for teaching the learner course **Кратък увод в STEM** (`C0102-BG`).
 - **Course:** `C0202`. Language: **BG**.
-- Educator tracks **`V21`** / **`V22`** are teacher handbooks for how to teach those two learner groups (**`V21`** → начинаещи читатели **`V11`**, **`V22`** → по-млади читатели **`V12`**), not a separate content path. There is no **`V23`** until `C0102` has a deeper learner track.
+- Educator tracks **`V21`** / **`V22`** are teacher handbooks for how to teach those two learner groups (**`V21`** → начинаещи читатели **`V11`**, **`V22`** → по-млади читатели **`V12`**), not a separate content path. There is no **`V23`** until `C0102` has a deeper learner track. There is no BG slides edition; EN slides are **`C0602`**.
 
 ## Canonical spec
 
