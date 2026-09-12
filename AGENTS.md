@@ -19,16 +19,15 @@ Authoritative layout rules: **`../../tcams/tcams-docs-shared`** (**STRUCTURE.md*
 - **Keep handbook topics very short:** usually one paragraph, then a **`::: helper`** … **`:::`** aside. Helper text is for the teacher while they talk.
 - **Lesson intros:** two or three sentences naming the group and reminding Проблем, Инфо, Задача. Do not write a second essay.
 - **No Markdown tables** for teaching flow.
-- Unset **`layout_type`** uses the Handbooks default **`stack-text`**.
+- Unset **`layout_type`** uses the Handbooks default **`flow-body`**.
 - Do not put raw ids or level codes in reader-facing prose.
 
 ## Content images
 
-Use the **same art and files** as `c0202-en.short-intro-to-stem`. Do not invent a separate Bulgarian visual style. When replacing a topic image here, copy the matching JPG from the English handbook (same lesson/media filename).
+Use the **same art and files** as the matching `c0102-bg` learner track (**V21** ← **V11**, **V22** ← **V12**). Do not invent a separate Bulgarian visual style. When replacing a topic image here, copy the matching JPG from `c0102-bg` (same lesson, `T####`, slug).
 
-- Topic illustrations: **1920×960** (2:1) JPG. Markdown: `![descriptive alt](media/filename.jpg)`.
+- Topic illustrations: **2:1** JPG (same files as the matching `C0102` BG track: **V21** ← **V11**, **V22** ← **V12**). Typical **1920×960**; some V22 files are lossless-cropped **1376×688**. Markdown: `![descriptive alt](media/filename.jpg)`.
 - **Do not touch** `media/course-cover.jpg` or `media/course-badge.jpg` unless explicitly asked.
-- Leave the older **1376×768** photos in place unless asked to replace them. Do **not** use those older handbook files as style references.
 - Full style and the copy-paste generation prompt: **`c0202-en.short-intro-to-stem/AGENTS.md`** (Content images). That look matches the learner course in `c0102-en.short-intro-to-stem/AGENTS.md`.
 
 ## Validation
